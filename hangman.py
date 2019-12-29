@@ -34,7 +34,7 @@ def DrawHangman(guesses_counter):
                 {2}{1}{3}\t|
                 {4}{5}\t|
                 \t|
-                \t|"""
+                \t|\n"""
 
     # Replace {#} above with corresponding hangman part or replace any leftover {#} above with empty string
     for x in range(0, 6):
